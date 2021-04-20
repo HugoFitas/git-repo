@@ -6,7 +6,7 @@ const Button = () => {
   };
   return (
     <div className="button-div">
-      <button onClick="">Click Me!</button>
+      <button onClick={clickHandler}>Click Me!</button>
     </div>
   );
 };
