@@ -6,7 +6,7 @@ const Button = () => {
   };
   return (
     <div className="button-div">
-      <button>Click Me!</button>
+      <button onClick="">Click Me!</button>
     </div>
   );
 };
