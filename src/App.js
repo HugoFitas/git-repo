@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./components/Button";
+import "./components/reset.css";
+import "./components/Button.css";
 
 function App() {
   return (
