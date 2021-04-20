@@ -5,7 +5,7 @@ const Button = () => {
     alert("Hello World!");
   };
   return (
-    <div className="button-div">
+    <div>
       <button onClick={clickHandler}>Click Me!</button>
     </div>
   );
