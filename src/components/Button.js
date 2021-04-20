@@ -1,9 +1,12 @@
 import React from "react";
 
 const Button = () => {
+  const clickHandler = () => {
+    alert("Hello World!");
+  };
   return (
     <div className="button-div">
-      <button>Click Me!</button>
+      <button onClick={clickHandler}>Click Me!</button>
     </div>
   );
 };
