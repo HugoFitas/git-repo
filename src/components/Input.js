@@ -4,8 +4,13 @@ const Input = () => {
   const [onChange, setOnChange] = React.useState("");
   return (
     <div>
-      <input onChange={(event) => setOnChange(event.target.value)} />
-      <p>{onChange}</p>
+      <input
+        type="text"
+        value={onChange}
+        placeholder="Type on me!"
+        onChange={(event) => setOnChange(event.target.value)}
+      />
+      <p className="paragraph">{onChange}</p>
     </div>
   );
 };
